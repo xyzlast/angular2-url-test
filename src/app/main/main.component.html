@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="top-nav">top nav</div>
+  <div class="main-body">
+    <div class="side-nav">
+      <ul>
+        <li><a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/main/list']">list</a></li>
+        <li><a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/main/user']">user</a></li>
+        <li><a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/main/item']">item</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="footer">foot nav</div>
+</div>

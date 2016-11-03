@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-nav {
+  height: 50px;
+  border: 1px solid black;
+}
+
+.main-body {
+  display: flex;
+}
+
+.side-nav {
+  flex-basis: 150px;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+}
+
+.footer {
+  border: 1px solid gray;
+  height: 50px;
+}
+
+.active {
+  color: springgreen;
+}
